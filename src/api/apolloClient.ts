@@ -129,7 +129,7 @@ const redirectToLogin = () => {
   window.location.replace("/login");
 };
 
-const httpLink = new HttpLink({ uri: "http://localhost:5000/graphql" });
+const httpLink = new HttpLink({ uri: "https://devcollab-server-5kkj.onrender.com/graphql" });
 
 const authLink = new SetContextLink(({ headers }) => {
   const t = localStorage.getItem(AUTH_TOKEN_KEY) ?? "";
