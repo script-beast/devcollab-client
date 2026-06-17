@@ -10,11 +10,11 @@ DevCollab Frontend is a React + TypeScript engineering workspace UI for managing
 
 ## Live Demo
 
-`LIVE_URL_HERE`
+`https://mydevcollb.netlify.app/`
 
 ## Backend Repository
 
-`GITHUB_URL_HERE`
+`https://github.com/script-beast/devcollab-server`
 
 ## Features
 
